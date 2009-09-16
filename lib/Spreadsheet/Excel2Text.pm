@@ -3,7 +3,7 @@ package Spreadsheet::Excel2Text;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 BEGIN {
 	use Exporter;
@@ -45,7 +45,9 @@ sub XlsSaveToText($$) {
 		$line = "";
 		foreach my $excelTab (@$refArray) {
 			$field = $excelTab;
+			no warnings;
 			$line .= $field."\t";
+			use warnings;
 		} # foreach
 		$line =~ s%\r?\n?%%g;
 		print $fhText $line, "\n";
@@ -66,7 +68,7 @@ __END__
 
 =head1 NAME
 
-Excel2Text - a modul for save Excel as textfile
+Excel2Text - a module for save Excelfile as Textfile
 
 =head1 SYNOPSIS
 

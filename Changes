@@ -4,3 +4,5 @@ Revision history for Perl extension Spreadsheet::Excel2Text.
 	- original version; created by h2xs 1.23 with options
 		-XA -n Spreadsheet::Excel2Text
 
+0.02  Wed Sep 16 12:36:04 2009
+	- bugfix: module
