@@ -3,7 +3,7 @@ package Spreadsheet::Excel2Text;
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 BEGIN {
 	use Exporter;
@@ -77,6 +77,10 @@ Excel2Text - a module for save Excelfile as Textfile
   use Spreadsheet::Excel2Text qw( XlsSaveToText );
 
   XlsSaveToText("C:\\Excel.xls", "C:\\Excel.txt");
+
+=head1 ABSTRACT
+
+Test
 
 =head1 DESCRIPTION
 

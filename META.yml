@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:               Spreadsheet-Excel2Text
-version:            0.02
+version:            0.03
 abstract:           ~
 author:
-    - A. U. Thor <a.u.thor@a.galaxy.far.far.away>
+    - Gernot Havranek <havi@cpan.org>
 license:            unknown
 distribution_type:  module
 configure_requires:
