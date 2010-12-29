@@ -9,3 +9,6 @@ Revision history for Perl extension Spreadsheet::Excel2Text.
 
 0.03  Thu Sep 17 14:19:04 2009
 	- bugfix: module
+
+0.04  Wed Dec 29 13:42:00 2010
+   - bugfix: Win32::OLE

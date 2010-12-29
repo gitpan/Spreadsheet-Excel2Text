@@ -1,29 +1,19 @@
-Excel2Text version 0.03
-=======================
+NAME
+    Excel2Text - a module for save Excelfile as Textfile
 
-INSTALLATION
+SYNOPSIS
+      use warnings;
+      use strict;
+      use Spreadsheet::Excel2Text qw( XlsSaveToText );
 
-To install this module type the following:
+      XlsSaveToText("C:\\Excel.xls", "C:\\Excel.txt");
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+ABSTRACT
+    Test
 
-DEPENDENCIES
+DESCRIPTION
+    ...
 
-This module requires these other modules and libraries:
-
-   Excel2Text
-
-COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
-
-Copyright (C) 2009 by Gernot Havranek
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.10.0 or,
-at your option, any later version of Perl 5 you may have available.
-
+AUTHOR AND LICENSE
+    copyright 2009 (c) Gernot Havranek
 
